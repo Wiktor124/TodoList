@@ -2,7 +2,7 @@ const todos = JSON.parse(localStorage.getItem("todos")) || [];
 
 const render = () => {
   const todoList = document.getElementById("todo-list");
-  const todoTemplate = todos.map((t) => `<li class="chores">${t}   press here to delete</li>`);
+  const todoTemplate = todos.map((t) => `<li class="chores">${t}   delete</li>`);
   todoList.innerHTML = todoTemplate.join(" ");
   const elements = document.querySelectorAll("#todo-list li");
   elements.forEach((element, i) => {
