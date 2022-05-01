@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
 body {
     background-color: #ccc;
 }
@@ -29,6 +31,7 @@ input[type="submit"] {
 }
 
 .chores {
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: bolder;
     list-style: none;
