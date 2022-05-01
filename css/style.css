@@ -31,5 +31,7 @@ input[type="submit"] {
 .chores {
     font-size: 25px;
     font-weight: bolder;
+    list-style: none;
+    color: red;
 }
 
