@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 
+:root {
+    --font: font-family: 'Roboto', sans-serif;
+}
+
 body {
     background-color: #ccc;
 }
@@ -21,8 +25,8 @@ input {
 }
 input[type="submit"] {
     font-weight: 600;
-    color: #fff;
-    background-color: red;
+    color: #121212;
+    background-color: greenyellow;
 }
 
 #todo-list {
@@ -37,5 +41,10 @@ input[type="submit"] {
     list-style: none;
     cursor: pointer;
     margin-bottom: 5px;
+    color: #141414;
+}
+
+::placeholder {
+    font-family:var(--font);
 }
 
