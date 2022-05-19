@@ -28,6 +28,7 @@ input {
 }
 input[type="submit"] {
     font-weight: 600;
+    cursor: pointer;
     color: #121212;
     background-color: greenyellow;
 }
