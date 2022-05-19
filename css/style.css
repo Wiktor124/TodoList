@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 
 :root {
-    --font: font-family: 'Roboto', sans-serif;
+    --font: 'Roboto', sans-serif;
+    --color: #fff;
 }
 
 body {
-    background-color: #ccc;
+    background-color: #000;
 }
 .flex {
     display: flex;
@@ -22,6 +23,8 @@ form {
 }
 input {
     background: none;
+    border-style: none;
+    background-color: #ccc;
 }
 input[type="submit"] {
     font-weight: 600;
@@ -45,6 +48,7 @@ input[type="submit"] {
 }
 
 ::placeholder {
-    font-family:var(--font);
+    color: var(--color);
+    font-family: var(--font);
 }
 
