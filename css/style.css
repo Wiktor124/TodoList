@@ -41,7 +41,6 @@ input[type="submit"] {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: bolder;
-    list-style: none;
     cursor: pointer;
     margin-bottom: 5px;
     color: #141414;
